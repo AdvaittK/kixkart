@@ -20,7 +20,7 @@ const testimonials = [
     name: "Morgan Lee",
     role: "Urban Explorer",
     avatar: "/placeholder-user.jpg",
-    content: "CyberKicks have become my go-to for both style and durability. They perform exceptionally well in all urban environments.",
+    content: "Foot Store Demo have become my go-to for both style and durability. They perform exceptionally well in all urban environments.",
     rating: 5,
   },
   {
@@ -81,7 +81,7 @@ export default function Testimonials() {
             What Our Community Says
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            Authentic reviews from the <span className="text-gradient-primary">CyberKicks community</span>, sharing their experiences with our products
+            Authentic reviews from the <span className="text-gradient-primary">Foot Store Demo community</span>, sharing their experiences with our products
           </p>
         </motion.div>
         

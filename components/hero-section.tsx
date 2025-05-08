@@ -69,7 +69,7 @@ export default function HeroSection() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.7, delay: 0.4 }}
               >
-                Experience our cutting-edge <span className="text-gradient-primary font-medium">CyberKicks</span> collection—where futuristic design meets unparalleled comfort and performance.
+                Experience our cutting-edge <span className="text-gradient-primary font-medium">KixKart</span> collection—where futuristic design meets unparalleled comfort and performance.
               </motion.p>
               
               <motion.div
@@ -137,7 +137,7 @@ export default function HeroSection() {
               {/* Product image */}
               <Image
                 src="/nike.png"
-                alt="CyberKicks Featured Product"
+                alt="KixKart Featured Product"
                 fill
                 className="object-contain z-[2] relative"
                 priority

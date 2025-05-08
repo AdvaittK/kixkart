@@ -7,13 +7,16 @@ import Header from "@/components/header"
 import Footer from "@/components/footer"
 import CyberpunkElements from "@/components/cyberpunk-elements"
 import CyberpunkDataStreams from "@/components/cyberpunk-data-streams"
+import { Toaster } from "sonner"
 
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Cyberkicks | Premium Sneakers & Streetwear",
-  description: "Shop the latest premium sneakers and streetwear with futuristic style at Cyberkicks.",
-  generator: 'v0.dev'
+  title: "KixKart - Premium Sneakers & Streetwear",
+  description: "Discover the future of sneaker culture with our exclusive collection of premium kicks and streetwear.",
+  icons: {
+    icon: "/cyberkick.png",
+  },
 }
 
 export default function RootLayout({
@@ -35,6 +38,7 @@ export default function RootLayout({
             <Footer />
           </div>
         </ThemeProvider>
+        <Toaster />
       </body>
     </html>
   )
