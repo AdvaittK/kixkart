@@ -18,10 +18,10 @@ const product = {
   description:
     "Step into the future with the Nike Air Quantum X. These sneakers feature cutting-edge cushioning technology and a futuristic design that's perfect for the streets. The breathable mesh upper and responsive sole provide all-day comfort, while the reflective accents ensure you stand out in low light.",
   images: [
-    "/cyberkick.png",
-    "/cyberkick.png",
-    "/cyberkick.png",
-    "/cyberkick.png",
+    "/4.png",
+    "/4.png",
+    "/4.png",
+    "/4.png",
   ],
   sizes: ["US 7", "US 8", "US 9", "US 10", "US 11", "US 12"],
   colors: ["Black", "Red", "White"],

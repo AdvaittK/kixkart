@@ -23,7 +23,7 @@ const products = [
     price: 80,
     rating: 4.5,
     reviews: 128,
-    image: "/4  .png",
+    image: "/4.png",
     colors: ["Black", "White", "Red"],
     sizes: ["S", "M", "L", "XL"],
     isNew: true,
