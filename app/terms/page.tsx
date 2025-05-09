@@ -53,7 +53,7 @@ export default function TermsOfService() {
           <section>
             <h2 className="text-2xl font-semibold mb-4">7. Contact Information</h2>
             <p>Questions about the Terms of Service should be sent to us at:</p>
-            <p className="mt-2">Email: advaitt.dev@gmail.com</p>
+            <p className="mt-2">Email: legal@cyberkicks.com</p>
           </section>
         </div>
       </div>

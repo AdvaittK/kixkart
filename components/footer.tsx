@@ -113,11 +113,11 @@ export default function Footer() {
                 </li>
                 <li>
                   <Link 
-                    href="mailto:advaitt.dev@gmail.com" 
+                    href="mailto:contact@kixkart.com" 
                     className="text-muted-foreground hover:text-primary transition-all duration-300 flex items-center gap-2"
                   >
                     <Mail className="h-4 w-4 text-primary/60" />
-                    advaitt.dev@gmail.com
+                    contact@kixkart.com
                   </Link>
                 </li>
                 <li>

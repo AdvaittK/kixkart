@@ -96,7 +96,7 @@ export default function AccountPage() {
                 </div>
                 <div>
                   <h2 className="font-semibold">John Doe</h2>
-                  <p className="text-sm text-muted-foreground">advaitt.dev@gmail.com</p>
+                  <p className="text-sm text-muted-foreground">john.doe@example.com</p>
                 </div>
               </div>
               <nav className="space-y-1">

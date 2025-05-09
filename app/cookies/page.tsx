@@ -60,7 +60,7 @@ export default function CookiePolicy() {
           <section>
             <h2 className="text-2xl font-semibold mb-4">6. Contact Us</h2>
             <p>If you have any questions about our Cookie Policy, please contact us at:</p>
-            <p className="mt-2">Email: advaitt.dev@gmail.com</p>
+            <p className="mt-2">Email: privacy@cyberkicks.com</p>
           </section>
         </div>
       </div>
