@@ -8,7 +8,6 @@ import { Search, ShoppingCart, User, Menu, Heart, ChevronDown, X } from "lucide-
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
-import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from "@/components/ui/dropdown-menu"
 import { Badge } from "@/components/ui/badge"
 import { useMobile } from "@/hooks/use-mobile"
 import { cn } from "@/lib/utils"
@@ -75,7 +74,7 @@ export default function Header() {
                     className="relative w-12 h-12 overflow-hidden rounded-xl glass-effect border border-primary/20 p-1.5"
                   >
                     <Image
-                      src="/cyberkick.png"
+                      src="/final.png"
                       alt="KixKart Logo"
                       width={36}
                       height={36}
@@ -103,7 +102,7 @@ export default function Header() {
                       {categories.map((category) => (
                         <Link
                           key={category}
-                          href={`/category/${category.toLowerCase()}`}
+                          href={`/category/${category.toLowerCase().replace(/\s+/g, '-')}`}
                           className="text-muted-foreground hover:text-primary transition-all duration-300 pl-2 py-2 border-l-2 border-transparent hover:border-primary/40 hover:bg-primary/5 rounded-r-md"
                         >
                           {category}
@@ -137,7 +136,7 @@ export default function Header() {
               className="relative w-12 h-12 overflow-hidden rounded-xl glass-effect border border-primary/20 flex items-center justify-center"
             >
               <Image
-                src="/cyberkick.png"
+                src="/final.png"
                 alt="KixKart Logo"
                 width={32}
                 height={32}
@@ -153,40 +152,13 @@ export default function Header() {
             {categories.map((category) => (
               <Link
                 key={category}
-                href={`/category/${category.toLowerCase()}`}
+                href={`/category/${category.toLowerCase().replace(/\s+/g, '-')}`}
                 className="text-sm font-medium px-4 py-2 rounded-lg hover:bg-primary/10 hover:text-primary transition-all duration-300 relative group"
               >
                 {category}
                 <span className="absolute bottom-0 left-0 w-full h-0.5 bg-primary scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left" />
               </Link>
             ))}
-            <DropdownMenu>
-              <DropdownMenuTrigger asChild>
-                <Button 
-                  variant="ghost" 
-                  className="text-sm font-medium flex items-center hover:bg-primary/10"
-                  aria-label="Brands menu"
-                >
-                  Brands
-                  <ChevronDown className="ml-1 h-4 w-4 opacity-70" />
-                </Button>
-              </DropdownMenuTrigger>
-              <DropdownMenuContent 
-                align="start" 
-                className="w-64 grid grid-cols-2 gap-1 p-3 border-primary/10 glass-effect"
-                sideOffset={8}
-              >
-                {brands.map((brand) => (
-                  <DropdownMenuItem 
-                    key={brand} 
-                    asChild 
-                    className="hover:bg-primary/10 hover:text-primary rounded-md"
-                  >
-                    <Link href={`/brand/${brand.toLowerCase()}`} className="w-full">{brand}</Link>
-                  </DropdownMenuItem>
-                ))}
-              </DropdownMenuContent>
-            </DropdownMenu>
           </nav>
         </div>
         

@@ -14,7 +14,7 @@ const hotDrops = [
     id: 1,
     name: "CyberGlide X9",
     price: 289.99,
-    image: "/images/sneakers/sneaker-1.jpg",
+    image: "/4.png",
     brand: "Nike",
     isNew: true,
     isSoldOut: false,
@@ -24,7 +24,7 @@ const hotDrops = [
     id: 2,
     name: "Quantum Force",
     price: 249.99,
-    image: "/images/sneakers/sneaker-1.jpg",
+    image: "/4.png",
     brand: "Adidas",
     isNew: false,
     isSoldOut: true,
@@ -34,7 +34,7 @@ const hotDrops = [
     id: 3,
     name: "Neon Runner",
     price: 219.99,
-    image: "/images/sneakers/sneaker-1.jpg",
+    image: "/4.png",
     brand: "Puma",
     isNew: true,
     isSoldOut: false,
@@ -144,7 +144,7 @@ export default function HotDrops() {
                       <div className="text-sm text-primary font-medium mb-1">{product.brand}</div>
                       <h3 className="font-bold text-lg">{product.name}</h3>
                     </div>
-                    <div className={`text-lg font-bold ${product.isSoldOut ? 'text-red-500' : 'cyber-title-accent'}`}>
+                    <div className={`text-lg font-bold ${product.isSoldOut ? 'text-blue-500' : 'cyber-title-accent'}`}>
                       ${product.price}
                     </div>
                   </div>

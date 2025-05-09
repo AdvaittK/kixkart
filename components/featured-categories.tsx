@@ -10,26 +10,30 @@ const categories = [
   {
     id: 1,
     name: "Running",
-    image: "/placeholder.jpg",
+    image: "/running.jpg",
     count: 24,
+    link: "/category/running",
   },
   {
     id: 2,
     name: "Basketball",
-    image: "/placeholder.jpg",
+    image: "/basketball.jpg",
     count: 18,
+    link: "/category/basketball",
   },
   {
     id: 3,
     name: "Lifestyle",
-    image: "/placeholder.jpg",
+    image: "/lifestyle.jpg",
     count: 36,
+    link: "/category/lifestyle",
   },
   {
     id: 4,
     name: "Training",
-    image: "/placeholder.jpg",
+    image: "/training.png",
     count: 16,
+    link: "/category/training",
   },
 ]
 
@@ -96,7 +100,7 @@ export default function FeaturedCategories() {
         >
           {categories.map((category) => (
             <motion.div key={category.id} variants={itemVariants}>
-              <Link href={`/categories/${category.id}`} className="block group">
+              <Link href={category.link} className="block group">
                 <Card className="overflow-hidden border-primary/10 hover:border-primary/30 transition-colors duration-300 h-full bg-card/50 backdrop-blur-sm">
                   <CardContent className="p-0 relative aspect-[4/5] overflow-hidden">
                     {/* Image */}

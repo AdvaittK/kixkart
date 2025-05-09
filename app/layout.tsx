@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   title: "KixKart - Premium Sneakers & Streetwear",
   description: "Discover the future of sneaker culture with our exclusive collection of premium kicks and streetwear.",
   icons: {
-    icon: "/cyberkick.png",
+    icon: "/final.png",
   },
 }
 

@@ -28,7 +28,7 @@ const config = {
         primary: {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
-          red: "#FF1A1A",
+          blue: "#0066FF",
         },
         secondary: {
           DEFAULT: "hsl(var(--secondary))",
@@ -55,7 +55,7 @@ const config = {
           foreground: "hsl(var(--card-foreground))",
         },
         cyber: {
-          red: "#FF1A1A",
+          blue: "#0066FF",
           black: "#111111",
         },
       },
@@ -75,10 +75,10 @@ const config = {
         },
         "neon-pulse": {
           "0%, 100%": {
-            boxShadow: "0 0 5px #FF1A1A, 0 0 10px #FF1A1A",
+            boxShadow: "0 0 5px #0066FF, 0 0 10px #0066FF",
           },
           "50%": {
-            boxShadow: "0 0 15px #FF1A1A, 0 0 20px #FF1A1A",
+            boxShadow: "0 0 15px #0066FF, 0 0 20px #0066FF",
           },
         },
       },
