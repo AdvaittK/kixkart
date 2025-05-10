@@ -1,6 +1,4 @@
-# KixKart - Premium Sneakers & Streetwear E-Commerce Platform
-
-![KixKart Logo](/public/final.png)
+# KixKart - Premium Sneakers & Streetwear E-Commerce Platform <img src="/public/final.png" alt="KixKart Logo" width="30" height="30" style="vertical-align: middle;">
 
 ## Overview
 
